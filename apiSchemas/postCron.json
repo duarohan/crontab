@@ -1,0 +1,17 @@
+{
+    "required" :[],
+    "properties": {
+        "name" : {
+            "type" : "string"
+        },
+        "status" : {
+            "type" : "string"
+        },
+        "cronTab" : {
+            "type" : "string"
+        },
+        "script" : {
+            "type" : "string"
+        }
+    }
+}
