@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "cronTab": "./bin/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/duarohan/crontab.git"
@@ -23,11 +26,16 @@
   "homepage": "https://github.com/duarohan/crontab#readme",
   "dependencies": {
     "ajv": "^6.12.0",
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
     "convict": "^5.2.0",
     "express": "^4.17.1",
+    "inquirer": "^7.1.0",
     "mongoose": "^5.9.7",
     "morgan": "^1.10.0",
     "node-cron": "^2.0.3",
-    "nodecron": "^0.2.0"
+    "pad": "^3.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
   }
 }
